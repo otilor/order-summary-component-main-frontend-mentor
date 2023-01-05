@@ -16,7 +16,7 @@ export default function Home() {
       </Head>
       <main>
         <div className='bg-white flex items-center justify-center h-screen'>
-          <p>welcome</p>
+          <Image alt='banner image' src='/images/'/>
         </div>
       </main>
     </>
