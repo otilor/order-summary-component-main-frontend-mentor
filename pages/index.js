@@ -16,9 +16,18 @@ export default function Home() {
       </Head>
       <main>
         <div className='bg-white flex items-center justify-center h-screen'>
-          <Image alt='banner image' className='rounded-t-lg' src='/images/illustration-hero.svg' width={400} height={400}/>
+        <div>
+        <Image alt='banner image' className='rounded-t-lg' src='/images/illustration-hero.svg' width={400} height={400}/>
           <h4 className='font-bold'>Order Summary</h4>
           <p>You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!</p>
+
+          <div className='bg-blue-100 grid grid-rows-2 grid-flow-col'>
+            <div className='row-span-2'>Image icon goes here</div>
+            <div className='col-span-2'>Annual Plan</div>
+            <div className='col-span-2'>$59.99/year</div>
+          </div>
+        </div>
+          
         </div>
       </main>
     </>
