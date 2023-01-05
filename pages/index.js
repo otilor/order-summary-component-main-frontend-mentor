@@ -21,7 +21,7 @@ export default function Home() {
           <h4 className='font-bold'>Order Summary</h4>
           <p>You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!</p>
 
-          <div className='bg-blue-100 grid grid-rows-2 grid-flow-col'>
+          <div className='bg-blue-100 grid grid-rows-2 grid-flow-col w-1/2'>
             <div className='row-span-2'>Image icon goes here</div>
             <div className='col-span-2'>Annual Plan</div>
             <div className='col-span-2'>$59.99/year</div>
