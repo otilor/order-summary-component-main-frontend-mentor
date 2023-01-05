@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from '@next/font/google'
 import styles from '../styles/Home.module.css'
+import { FaMusic } from 'react-icons/fa';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -22,7 +23,11 @@ export default function Home() {
           <p>You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!</p>
 
           <div className='bg-blue-100 grid grid-rows-2 grid-flow-col w-1/2'>
-            <div className='row-span-2'>Image icon goes here</div>
+            <div className='row-span-2'>
+              <span className='rounded-full bg-indigo-300'>
+                <FaMusic className='text-slate-900'/>
+              </span>
+            </div>
             <div className='col-span-2'>Annual Plan</div>
             <div className='col-span-2'>$59.99/year</div>
           </div>
