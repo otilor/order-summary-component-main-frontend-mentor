@@ -17,6 +17,8 @@ export default function Home() {
       <main>
         <div className='bg-white flex items-center justify-center h-screen'>
           <Image alt='banner image' className='rounded-t-lg' src='/images/illustration-hero.svg' width={400} height={400}/>
+          <h4 className='font-bold'>Order Summary</h4>
+          <p>You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!</p>
         </div>
       </main>
     </>
