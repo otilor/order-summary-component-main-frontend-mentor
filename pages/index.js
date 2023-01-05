@@ -16,7 +16,7 @@ export default function Home() {
       </Head>
       <main>
         <div className='bg-white flex items-center justify-center h-screen'>
-          <Image alt='banner image' src='/images/'/>
+          <Image alt='banner image' src='/images/illustration-hero.svg' width={400} height={400}/>
         </div>
       </main>
     </>
