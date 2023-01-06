@@ -20,7 +20,7 @@ export default function Home() {
         <div className='w-500 grid grid-cols-§'>
         <Image alt='banner image' className='rounded-t-lg' src='/images/illustration-hero.svg' width={400} height={400}/>
           <h4 className='font-bold'>Order Summary</h4>
-          <p className='break'>You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!</p>
+          <p className='grid grid-cols-3'>You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!</p>
 
           <div className='bg-blue-100 grid grid-rows-2 grid-flow-col w-1/2'>
             <div className='row-span-2'>
